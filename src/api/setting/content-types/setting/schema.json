@@ -31,6 +31,13 @@
     "footer": {
       "type": "richtext",
       "required": true
+    },
+    "social": {
+      "displayName": "socials",
+      "type": "component",
+      "repeatable": true,
+      "component": "socials.socials",
+      "required": true
     }
   }
 }
